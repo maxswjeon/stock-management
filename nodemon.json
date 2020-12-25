@@ -1,0 +1,4 @@
+{
+  "exec": "ts-node bin/www",
+  "ext": "js json ts"
+}

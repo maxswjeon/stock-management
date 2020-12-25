@@ -1,0 +1,47 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: 400; }
+
+.wrap-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  height: 100%; }
+
+.content-center {
+  margin: auto; }
+
+.gradient-background {
+  background: #12c2e9;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); }
+
+.form-login {
+  max-width: 500px;
+  width: 90vw;
+  display: block;
+  background: #FFF;
+  box-shadow: 0 14px 80px rgba(34, 35, 58, 0.2);
+  border-radius: 15px;
+  transition: all .3s;
+  padding: 40px 55px 45px 55px; }
+
+.form-login h2 {
+  text-align: center; }
+
+.wrap-error {
+  max-width: 740px;
+  width: 90vw;
+  margin: 100px auto; }
+
+.subtitle {
+  color: #7F7F7F; }
+
+.stack {
+  width: 740px;
+  white-space: nowrap;
+  overflow-x: scroll; }
+
+/*# sourceMappingURL=style.css.map */

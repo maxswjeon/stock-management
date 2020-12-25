@@ -1,0 +1,15 @@
+<div class="wrap-center gradient-background">
+    <form class="content-center form-login" method="POST">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="login_id">ID</label>
+            <input type="text" id="login_id" name="id" autocomplete="true" class="form-control" placeholder="ID"/>
+        </div>
+        <div class="form-group">
+            <label for="login_pw">Password</label>
+            <input type="password" id="login_pw" name="pw" autocomplete="true" class="form-control" placeholder="Password"/>
+        </div>
+        <input type="hidden" name="csrf_token" value="{{{csrf_token}}}"/>
+        <button type="submit" class="btn btn-dark btn-lg btn-block">Login</button>
+    </form>
+</div>
